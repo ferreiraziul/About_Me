@@ -8,11 +8,11 @@ body {
     overflow: hidden;
     position: relative;
     font-family: "Poppins", sans-serif;
-    color: #6b9080
+    color: #6b9080;
 }
 
 p{
-    color: #6b9080
+    color: #6b9080;
     text-align: center;
     text-shadow: -3px -3px 0 #f6fff8, 3px -3px 0 #f6fff8, -3px 3px 0 #f6fff8, 3px 3px 0 #f6fff8;
     font-size: 1.5rem;
