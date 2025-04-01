@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/imgs/favicon.png" type="image/jpg">
+    <title>About me, ferreiraziul</title>
+</head>
+<body>
+    <div class="background" id="background"></div>
+    <div class="content">
+        <img class="Eu" src="assets/imgs/eu2.png">
+        <h1>Ferreiraziul</h1>
+        <p>Discord: ferreiraaz</p>
+    </div>
+
+    <div class="social-media">
+        <a href="https://www.instagram.com/ferreiraziul?igsh=MW5mYWdyYmFkZXl3dQ==" target=”_blank”><img src="assets/imgs/instagram.png" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/luiza-ferreira-28b02a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target=”_blank”><img src="assets/imgs/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/ferreiraziul" target=”_blank”><img src="assets/imgs/github.png" alt="GitHub"></a>
+        <a href="https://open.spotify.com/user/ozdzcjtu47o1j2qufig71tt1l?si=ugILD9ssQBSNOb0RWFQqlQ" target=”_blank”><img src="assets/imgs/spotify.png" alt="Spotify"></a>
+        <a href="https://x.com/ferreirazlu?t=gZc9wWemx3qEmEWCLywaog&s=09" target=”_blank”><img src="assets/imgs/twitter.png" alt="X"></a>
+        <a href="https://vsco.co/ferreiraziul" target=”_blank”><img src="assets/imgs/vsco.png" alt="VSCO"></a>
+    </div>
+
+
+<p> Prazer, meu nome é Luiza Ferreira, 17 anos, estudante do último ano do ensino médio, amo desenhar e jogar!!</p>
+
+
+
+    <div class="footer-bar">
+        “Things we lose have a way of coming back to us in the end, if not always in the way we expect.” - Luna Lovegood
+    </div>
+    
+
+    <script>
+        function createBubble() {
+            const bubble = document.createElement('div');
+            bubble.classList.add('bubble');
+            document.getElementById('background').appendChild(bubble);
+
+            const size = Math.random() * 50 + 20;
+            bubble.style.width = `${size}px`;
+            bubble.style.height = `${size}px`;
+            bubble.style.left = `${Math.random() * 100}vw`;
+            bubble.style.animationDuration = `${Math.random() * 5 + 5}s`;
+
+            setTimeout(() => {
+                bubble.remove();
+            }, 10000);
+        }
+        
+        setInterval(createBubble, 500);
+    </script>
+</body>
+</html>
