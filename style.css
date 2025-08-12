@@ -117,14 +117,6 @@ right: 50%;
     transform: scale(1.2);
 }
 
-.social-media img[alt="VSCO"] {
-    width: 65px;
-    height: 65px;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
-}
-
 @media (max-width: 768px) {
     .social-media {
         width: 60%; 
@@ -189,5 +181,6 @@ right: 50%;
         font-size: 1rem;
     }
 }
+
 
 
